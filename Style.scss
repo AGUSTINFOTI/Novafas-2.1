@@ -1,0 +1,50 @@
+$primary: #e93a00;
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+//------INICIO-----//
+
+.fondo{
+    background:url(Assets/Fondo5.jpg)
+}
+
+.fondo2{
+    background: url(Assets/ciguña\ 4.jpg);
+    background-repeat:no-repeat;
+}
+.titulo{
+   display: grid;
+   place-items: center;
+}
+
+.logo{
+    width: 700px;
+    
+}
+
+.imgnav{
+    width: 50px;
+}
+
+
+//--------INFO-------//
+.info{
+    display: grid;
+    place-items:center;
+    padding: 50px;
+}
+
+
+//------FOOTER-----//
+.footer{
+    display: grid;
+    text-align: center;
+}
+
+
+
+//------PRODUCTO------//
+
+.imagenproduct{
+    width: 200px;
+    height: 50px;
+}
